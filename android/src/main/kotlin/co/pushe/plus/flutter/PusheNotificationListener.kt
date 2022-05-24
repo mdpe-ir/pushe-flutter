@@ -268,7 +268,7 @@ internal object PusheNotificationListener {
             }
 
             backgroundFlutterView?.runFromBundle(args)
-            pluginRegistrantCallback?.registerWith(backgroundFlutterView?.pluginRegistry)
+            pluginRegistrantCallback.registerWith(backgroundFlutterView?.pluginRegistry)
         }
     }
 
